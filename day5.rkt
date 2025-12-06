@@ -49,3 +49,8 @@
   (define separate (merge-overlapping filters))
   (for/sum ((f separate))
     (+ 1 (- (id-range-end f) (id-range-start f)))))
+
+(solve example)
+(solve input)
+(solve2 example)
+(solve2 input)
